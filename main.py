@@ -200,6 +200,7 @@ button_changer4 = Buttonnn("🢂", definter_changer_before_active4, 56, 290)
 button_backup = Buttonnn("    Backup    ", back_up_folder, 30, 320)
 
 if __name__ == '__main__':
+    print("maor was here :)!")
     with open(tempFile, "wb") as iconfile:
         iconfile.write(icondata)
     root.wm_iconbitmap(tempFile)
